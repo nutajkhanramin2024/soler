@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<link rel=stylesheet href="solar.css">
+</head>
+<body>
+  <video autoplay loop muted>
+    <source src="mix.mp4">
+  </video>
+  <h3>Powered By</h3>
+  <h2>JUNIORS BD</h2>
+  
+  <section class="firstsection">
+    <h1><span><img src="pngwing.com.png" class="logo"></span></h1>
+    <!-- Element to contain animated typing -->
+    <span id="element"></span>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["PLANETS AND MOONS"],
+        typeSpeed: 50,
+      });
+    </script>
+
+  <div class="container">
+    <div class="sun">
+      <img src="./images/sun.png" alt="sun">
+    </div>
+    <div class="mercury"></div>
+    <div class="venus"></div>
+    <div class="earth">
+      <div class="moon"></div>
+    </div>
+    <div class="mars"></div>
+    <div class="jupiter"></div>
+    <div class="saturn"></div>
+    <div class="uranus"></div>
+    <div class="neptune"></div>
+    <div class="pluto">
+    </div>
+  </div>
+  <button type="button" class="btn">
+    <a href="./soler_system/index.html">
+    <strong>LEARN MORE</strong>
+    <div id="container-stars">
+      <div id="stars"></div>
+    </div>
+  </a>
+    <div id="glow">
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+  </button>
+  <script src="salar.js"></script>
+</body>
+
+</html>
